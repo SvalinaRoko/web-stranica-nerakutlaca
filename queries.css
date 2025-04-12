@@ -356,10 +356,11 @@
     font-weight: 500;
     font-size: 1.4rem;
   }
-  #andrej-kozina-reivew {
-    font-size: 1.3rem;
-  }
-  #ella-hasel-reivew{
+  #andrej-kozina-reivew ,
+  #ella-hasel-reivew
+  {
+    padding:0 ;
+    overflow:scroll;
     font-size: 1.3rem;
   }
   /* BB */
