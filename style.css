@@ -332,7 +332,10 @@ body {
 .reviews::-webkit-scrollbar {
   display: none;
 }
-#andrej-kozina-reivew,#ella-hasel-reivew {
+#andrej-kozina-reivew {
+  font-size: 1.5rem;
+}
+#ella-hasel-reivew{
   font-size: 1.5rem;
 }
 .review {
