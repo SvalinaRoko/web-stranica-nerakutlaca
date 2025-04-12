@@ -1,2 +1,2 @@
-# stranica-nerakutlaca
-Web stranica za knjigu Energija djetetove proslosti od autorice Nere Kutlace.
+# Nera Kutlača web stranica
+Web stranica za knjigu Energija djetetove prošlosti.
