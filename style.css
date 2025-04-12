@@ -384,6 +384,7 @@ body {
 .review-name {
   font-size: 1.8rem;
   font-weight: 600;
+  text-align:center;
 }
 .is-hidden {
   display: none;

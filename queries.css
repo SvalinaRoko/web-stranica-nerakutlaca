@@ -70,12 +70,6 @@
   .review-text {
     width: 80%;
   }
-  #andrej-kozina-reivew {
-    padding:10rem 0 0 0;
-  }
-  #ella-hasel-reivew{
-    padding:10rem 0 0 0;
-  }
  
   /* ABOUT AUTHOR SECTION */
 
@@ -144,6 +138,17 @@
   .hide {
     display: none;
   }
+}
+/* 800 PX */
+@media (max-width:50rem){
+  #andrej-kozina-reivew ,
+  #ella-hasel-reivew
+  {
+    padding:10rem 0 0 0;
+    overflow:scroll;
+    font-size: 1.5rem;
+  }
+
 }
 /* 620 PX */
 @media (max-width: 38.75em) {
@@ -257,10 +262,11 @@
   .review {
     width: 40rem;
   }
-  #andrej-kozina-reivew {
-    font-size: 1.4rem;
-  }
-  #ella-hasel-reivew{
+  #andrej-kozina-reivew ,
+  #ella-hasel-reivew
+  {
+    padding:5rem 0 0 0 ;
+    overflow:scroll;
     font-size: 1.4rem;
   }
   /*  BB */
