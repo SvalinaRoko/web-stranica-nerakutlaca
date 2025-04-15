@@ -70,7 +70,6 @@
   .review-text {
     width: 80%;
   }
- 
   /* ABOUT AUTHOR SECTION */
 
   .section-about-author {
@@ -266,7 +265,6 @@
   #ella-hasel-reivew
   {
     padding:5rem 0 0 0 ;
-    overflow:scroll;
     font-size: 1.4rem;
   }
   /*  BB */
@@ -360,7 +358,6 @@
   #ella-hasel-reivew
   {
     padding:0 ;
-    overflow:scroll;
     font-size: 1.3rem;
   }
   /* BB */

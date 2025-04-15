@@ -71,7 +71,6 @@ body {
   background-color: #1a305e;
   color: #fff;
 }
-
 /* MOBILE NAVIGATION */
 
 .mobile-navigation-button {
@@ -332,16 +331,15 @@ body {
 .reviews::-webkit-scrollbar {
   display: none;
 }
-#andrej-kozina-reivew {
-  font-size: 1.5rem;
-}
+#andrej-kozina-reivew ,
 #ella-hasel-reivew{
   font-size: 1.5rem;
+
 }
 .review {
   background: #e2b486;
   width: 40rem;
-  height: 40rem;
+  height: 50rem;
   list-style: none;
 
   border-radius: 10rem 10rem 10rem 10rem;
