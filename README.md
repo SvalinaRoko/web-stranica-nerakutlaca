@@ -26,5 +26,5 @@ Nera Kutlača (rođena 18. lipnja 2004.) je hrvatska grafička tehničarka i sli
 Knjiga *Energija djetetove prošlosti* dostupna je za kupnju putem web stranice [nerakutlaca.com](https://www.nerakutlaca.com/) i drugih online knjižara.(nerakutlaca.com)
 
 ## Licenca
-
+<!-- Just a comment -->
 Sadržaj web stranice je zaštićen autorskim pravima. Za korištenje sadržaja obratite se autorici putem kontakt forme na stranici.
