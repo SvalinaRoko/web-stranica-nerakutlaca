@@ -27,4 +27,4 @@ Knjiga *Energija djetetove prošlosti* dostupna je za kupnju putem web stranice 
 
 ## Licenca
 
-Sadržaj web stranice je zaštićen autorskim pravima. Za korištenje sadržaja obratite se autorici putem kontakt forme na stranici.(Hoću knjigu)
+Sadržaj web stranice je zaštićen autorskim pravima. Za korištenje sadržaja obratite se autorici putem kontakt forme na stranici.
