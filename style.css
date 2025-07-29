@@ -89,7 +89,11 @@ body {
 .icon-mobile-nav[name="close-outline"] {
   display: none;
 }
-
+.no-scroll {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
 /* STICKY NAVIGATION */
 .sticky .header-section {
   position: fixed;
@@ -263,8 +267,7 @@ body {
   margin-right: 10rem;
   justify-self: end;
 }
-/* TODO */
-/* Add picture to testimonials */
+
 /* TESTIMONIALS SECTION */
 .testimonials-container .heading-secondary {
   text-align: center;

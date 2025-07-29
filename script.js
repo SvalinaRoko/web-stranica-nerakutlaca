@@ -13,7 +13,8 @@ const body = document.querySelector("body");
 const navLinks = document.querySelectorAll(".main-nav-link");
 const header = document.querySelector(".header-section");
 
-btnNav.addEventListener("click", function () {
+btnNav.addEventListener("click", function (e) {
+  e.preventDefault(); 
   header.classList.toggle("nav-open");
 });
 
@@ -108,21 +109,44 @@ allLinks.forEach(function (link) {
   });
 });
 // CAROUSEL
-const carousel = document.querySelector(".reviews");
-const arrowBtns = document.querySelectorAll(".arrows");
+
+const carousel = document.querySelector('.reviews');
 const firstReviewWidth = carousel.querySelector(".review").offsetWidth;
-const nextArrow = carousel.querySelector(".arrow--right");
-const prevArrow = carousel.querySelector(".arrow--left");
-const reviewsList = document.querySelectorAll(".reviews .review");
-const lastTestimonial = document.getElementById(".last-testimonial");
+const arrowBtns = document.querySelectorAll(".arrows");
+const leftArrow = document.getElementById('left');
+const rightArrow = document.getElementById('right');
+const firstItem = document.getElementById('first-testimonial');
+const lastItem = document.getElementById('last-testimonial');
+
+function isInView(element,container){
+  const elementRect = element.getBoundingClientRect();
+  const containerRect = container.getBoundingClientRect();
+  console.log(elementRect.left);
+  return(
+    elementRect.left >= containerRect.left &&
+    elementRect.right <= containerRect.right
+  );
+}
+
+const  defaultDisplayLeftArrow = leftArrow.style.display = "none";
+
+function updateArrowsVissibility(){
+  const isFirstVisible = isInView(firstItem, carousel);
+  const isLastVisible = isInView(lastItem, carousel);
+
+leftArrow.style.display = isFirstVisible ? 'none' : 'block';
+rightArrow.style.display = isLastVisible ? 'none' : 'block';
+}
+
+carousel.addEventListener('scroll', updateArrowsVissibility);
+
 arrowBtns.forEach((btn) => {
   btn.addEventListener("click", () => {
     carousel.scrollLeft +=
       btn.id === "left" ? -firstReviewWidth : firstReviewWidth;
   });
 });
-// TODO
-// Remove arrowslivew`
+
 // MAP SECTION
 let map;
 
