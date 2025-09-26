@@ -169,6 +169,12 @@
     flex-direction: column;
     gap: 2rem;
   }
+  .main-nav-list li:last-child{
+    margin-top: 3rem;
+  }
+  #main-nav-list-cta {
+    padding: 1.5rem 2rem;
+  }
 
   .main-nav-link:link,
   .main-nav-link:visited {
